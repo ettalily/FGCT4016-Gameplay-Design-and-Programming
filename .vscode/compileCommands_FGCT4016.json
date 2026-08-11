@@ -1,0 +1,10 @@
+[
+	{
+		"file": "/home/rosetta/Development/FGCT4016-Gameplay-Design-and-Programming/FGCT4016/Source/FGCT4016/FGCT4016.cpp",
+		"arguments": [
+			"/home/rosetta/Unreal/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/rosetta/Development/FGCT4016-Gameplay-Design-and-Programming/FGCT4016/.vscode/compileCommands_FGCT4016/FGCT4016.0.rsp"
+		],
+		"directory": "/home/rosetta/Unreal/Engine/Source"
+	}
+]
