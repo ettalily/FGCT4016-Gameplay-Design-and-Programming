@@ -12,6 +12,15 @@ class FGCT4016_API AMyActor : public AActor
 	GENERATED_BODY()
 	
 public:	
+
+	class UInputAction;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	UInputAction *MoveAction;
+
+	UFUNCTION()
+	void Move(const FInputActionValue& Value);
+
 	// Sets default values for this actor's properties
 	AMyActor();
 
@@ -27,5 +36,9 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	bool hello;
+
+	
 };
+
+
 
