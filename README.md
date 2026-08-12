@@ -12,3 +12,11 @@ Similarly, the `UFUNCTION` and `UPROPERTY` macros can be used to tag functions a
 ![UPROPERTY](./readme/uproperty.png)
 
 ![UPROPERTY Reflected](./readme/upropertyreflected.png)
+
+## Task 2: Actor Lifecycle Logging
+
+![Lifecycle Logging Log](./readme/wascalled.png)
+
+![Lifecycle Logging Header](./readme/wascalledheader.png)
+
+![Lifecycle Logging Code](./readme/wascalledcode.png)

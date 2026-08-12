@@ -15,7 +15,8 @@ AMyActor::AMyActor()
 void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	UE_LOG(LogTemp, Display, TEXT("BeginPlay() was called!"));
 }
 
 // Called every frame
@@ -23,4 +24,12 @@ void AMyActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	UE_LOG(LogTemp, Display, TEXT("Tick() was called!"));
+}
+
+void AMyActor::EndPlay(const EEndPlayReason::Type EndPlayReason)
+{
+	Super::EndPlay(EndPlayReason);
+
+	UE_LOG(LogTemp, Display, TEXT("EndPlay() was called!"));
 }
